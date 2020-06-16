@@ -8,18 +8,23 @@ let package = Package(
     products: [
     .library(
       name: "ApolloCore",
+      type: .dynamic,
       targets: ["ApolloCore"]),
     .library(
       name: "Apollo",
+      type: .dynamic,
       targets: ["Apollo"]),
     .library(
       name: "ApolloCodegenLib",
+      type: .dynamic,
       targets: ["ApolloCodegenLib"]),
     .library(
         name: "ApolloSQLite",
+        type: .dynamic,
         targets: ["ApolloSQLite"]),
     .library(
         name: "ApolloWebSocket",
+        type: .dynamic,
         targets: ["ApolloWebSocket"]),
     ],
     dependencies: [
