@@ -44,7 +44,9 @@ let package = Package(
         dependencies: []),
     .target(
       name: "Apollo",
-      dependencies: []),
+      dependencies: [
+        .byName(name: "ApolloCore")
+    ]),
     .target(
       name: "ApolloCodegenLib",
       dependencies: [
