@@ -16,7 +16,6 @@ let package = Package(
       targets: ["Apollo"]),
     .library(
       name: "ApolloCodegenLib",
-      type: .dynamic,
       targets: ["ApolloCodegenLib"]),
     .library(
         name: "ApolloSQLite",
